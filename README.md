@@ -19,10 +19,10 @@ Node.js & npm — install with nvm
 
 Quick Start
 # 1) Clone
-git clone <GIT_URL>
+git clone https://github.com/JosephSkippy/Singapore-Weather-App.git
 
 # 2) Enter project
-cd <PROJECT_NAME>
+cd Singapore-Weather-App
 
 # 3) Install deps
 npm i
