@@ -47,4 +47,4 @@ Vite • TypeScript • React • Leaflet • Recharts • Tailwind CSS • shad
 
 | Main View | Desktop | Mobile |
 | --- | --- | --- |
-| ![Main](docs/main.png) | ![Desktop](docs/desktop.png) | ![Mobile](docs/mobile.png) |
+| ![Main](docs/mainv2.png) | ![Desktop](docs/desktop.png) | ![Mobile](docs/mobile.png) |
