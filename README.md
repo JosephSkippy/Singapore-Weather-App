@@ -15,7 +15,7 @@ Features
 
 Requirements
 
-Node.js & npm — install with nvm
+npm — install with nvm
 
 Quick Start
 # 1) Clone
