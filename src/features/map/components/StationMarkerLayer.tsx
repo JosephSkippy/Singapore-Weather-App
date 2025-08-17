@@ -1,5 +1,5 @@
 // features/map/components/StationMarkerLayer.tsx
-import { Marker, Popup } from "react-leaflet";
+import { Marker, Popup, Tooltip  } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
 import type { Station } from "../types";
 
@@ -19,6 +19,13 @@ export function StationMarkerLayer({ stations, onPopupOpen }: Props) {
             popupopen: (e) => onPopupOpen(s, e as unknown as L.LeafletEvent),
           }}
         >
+          <Tooltip
+            permanent
+            direction="top"
+            offset={[0, -18]}         
+            className="station-label--plain"  // for custom styles
+          >{s.name}
+          </Tooltip>
           {/* keep Popup so popupopen fires */}
           <Popup />
         </Marker>

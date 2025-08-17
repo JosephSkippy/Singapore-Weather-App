@@ -5,7 +5,7 @@ import { StationSummary } from '../StationSummary';
 describe('StationSummary', () => {
   test('shows forecast when provided', () => {
     render(<StationSummary stationName="Ang Mo Kio" forecastText="Showers" />);
-    expect(screen.getByText('Forecast')).toBeInTheDocument();
+    expect(screen.getByText("Tomorrow's Forecast")).toBeInTheDocument();
     expect(screen.getByText('Showers')).toBeInTheDocument();
   });
 
